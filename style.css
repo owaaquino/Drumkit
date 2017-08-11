@@ -1,0 +1,86 @@
+body, html {
+		text-align: center;
+		font-size: 12pt;
+		font-family: 'Arial';
+		background-color: #EF5B09;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	#header h1{
+		color: #54120A;
+		font-family: 'Permanent Marker', cursive;
+		font-size: 20pt;
+		transform: rotate(-10deg);
+	}
+
+	#header p{		
+		color: #54120A;
+		font-family: 'Permanent Marker', cursive;
+		font-size: 10pt;
+		transform: rotate(-10deg);
+	}
+
+	#drum{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		text-transform: uppercase;
+		padding: 50px 0;
+	}
+
+	.note {
+		background-color: #BADA55;
+		color: #fff;
+		border-radius: 10px;
+		margin: 5px;
+		padding-top: 30px;
+		width: 30%;
+		height: 90px;	
+		font-weight: 600;
+		letter-spacing: 1.3pt;
+  		transition: all .07s ease;
+	}
+
+	.highlightNote {
+		border: 3px solid steelblue;
+		transform: scale(1.1);
+	}
+
+	.note kbd {
+		display: block;
+		font-size: 10pt;
+	}
+
+	#footer a{
+		text-decoration: none;
+		cursor: pointer;
+		color: pink;
+	}
+
+	.love {
+		color: pink;
+		font-size: 16pt;
+	}
+
+	@media screen and (min-width: 500px) {
+
+		#header h1{
+			font-size: 50pt;
+		}
+
+		#header p {
+			font-size: 20pt;			
+		}
+
+		#drum{
+			display: flex;
+			flex-flow: row wrap;
+			height: 50vh;
+		}
+
+		.note {
+			width: 100px;
+			height: 100px;	
+		}
+	}

@@ -48,8 +48,7 @@ body, html {
 	}
 
 	.note kbd {
-		display: block;
-		font-size: 10pt;
+		display: none;
 	}
 
 	#footer a{
@@ -83,4 +82,9 @@ body, html {
 			width: 100px;
 			height: 100px;	
 		}
+
+		.note kbd {
+			display: block;
+			font-size: 10pt;
+	}
 	}
